@@ -366,6 +366,7 @@ button {
 }
 @media (max-width: 800px) {
    aside {
+    position: static !important;
     width: 100%;
     height: auto;
     padding: var(--space-xs);
