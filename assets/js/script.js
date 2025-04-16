@@ -110,7 +110,7 @@ function redirectToHomePage() {
 // Loads Markdown content dynamically and renders math expressions with KaTeX
 document.addEventListener("DOMContentLoaded", function () {
   const containers = document.querySelectorAll("[data-md]");
-  const basePath = "/cmst/assets/md/";
+  const basePath = "/acmps/assets/md/";
 
   containers.forEach(container => {
     const file = container.getAttribute("data-md");
