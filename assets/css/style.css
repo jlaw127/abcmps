@@ -371,6 +371,7 @@ button {
     height: auto;
     margin: 0;
     margin-bottom: var(--mobile-navbar-height);
+    margin-top: var(--mobile-navbar-height);
     box-sizing: border-box;
   }
 
