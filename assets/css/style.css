@@ -367,6 +367,7 @@ button {
 @media (max-width: 800px) {
    aside {
     width: 100%;
+    height: auto;
     padding: var(--space-xs);
     background: var(--sidebar-color);
     display: flex;
