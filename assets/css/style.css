@@ -365,21 +365,8 @@ button {
   }
 }
 @media (max-width: 800px) {
-  main {
+   aside {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    margin-bottom: var(--mobile-navbar-height);
-    margin-top: var(--sidebar-height);
-    padding: var(--space-xs);
-    box-sizing: border-box;
-  }
-
-  aside {
-    width: 100%;
-    height: auto;
-    margin: 0;
     padding: var(--space-xs);
     background: var(--sidebar-color);
     display: flex;
@@ -388,11 +375,21 @@ button {
     justify-content: space-around;
     gap: var(--space-sm);
     box-sizing: border-box;
-    z-index: 1000;
   }
   .sidebar-link-block {
     display: none !important;
   }
+  main {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: var(--mobile-navbar-height);
+    padding: var(--space-xs);
+    box-sizing: border-box;
+  }
+
+
 
   nav {
     position: fixed;
