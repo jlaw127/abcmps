@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+
+    <!-- Site Icon -->
+    <link rel="shortcut icon" href="/assets/images/shin_chan_1.jpg" type="image/x-icon">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/00eb215651.js" crossorigin="anonymous"></script>
+    <!-- GitHub Markdown CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <!-- Academicons
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"> -->
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+    
+  <body>
+    <!-- === Toggle === -->
+    <header>
+      <!-- === Mobile Toggle === -->
+      <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+      <div class="mobile-menu" id="mobile-menu"></div>
+      
+      <!-- Navigation Bar -->
+      <nav>
+        <a href="#About" class="nav-button active" data-nav-link>About</a>
+        <a href="#Portfolio" class="nav-button" data-nav-link>Portfolio</a>
+        <a href="#CV" class="nav-button" data-nav-link>CV</a>
+        <a href="#Others" class="nav-button" data-nav-link>Others</a>
+      </nav>
+    </header>
+
+    <!-- === Sidebar === -->
+    <aside>
+      <!-- avatar -->
+      <div class="sidebar-avatar">
+        <img src="./assets/images/snorlax.jpg" />
+      </div>
+      <!-- name -->
+      <div class="sidebar-name-block">
+        <p class="sidebar-name">Your Name Here</p>
+      </div>
+      <!-- links -->
+      <div class="sidebar-link-block">
+        <a href="mailto:your.email@example.com" class="sidebar-link" target="_blank">
+          <i class="fa-regular fa-envelope icon-box" data-brand="email"></i>
+          <span class="link-text">Email</span>
+        </a>
+      
+        <a class="sidebar-link">
+          <i class="fa-solid fa-location-dot icon-box" data-brand="location"></i>
+          <span class="link-text">Location</span>
+        </a>
+      
+        <a class="sidebar-link">
+          <i class="fas fa-university icon-box" data-brand="affiliation"></i>
+          <span class="link-text">Affiliation</span>
+        </a>
+      
+        <a href="https://github.com" class="sidebar-link" target="_blank">
+          <i class="fa-brands fa-github icon-box" data-brand="github"></i>
+          <span class="link-text">GitHub</span>
+        </a>
+      
+        <a href="https://linkedin.com" class="sidebar-link" target="_blank">
+          <i class="fa-brands fa-linkedin icon-box" data-brand="linkedin"></i>
+          <span class="link-text">LinkedIn</span>
+        </a>
+      
+        <a href="https://scholar.google.com/" class="sidebar-link" target="_blank">
+          <i class="fab fa-google icon-box" data-brand="google"></i>
+          <span class="link-text">Google Scholar</span>
+        </a>
+      
+        <a href="https://orcid.org/" class="sidebar-link" target="_blank">
+          <i class="fa-brands fa-orcid icon-box" data-brand="orcid"></i>
+          <span class="link-text">ORCID</span>
+        </a>
+      </div>
+      
+    </aside>
+
+
+    <!-- -------------------------------------------------------------------------------- -->
+    <main>
+      <!-- Section: ABOUT -->
+      <section id="about" class="active" data-page="about">
+        <article>
+          <div data-md="1_about.md"></div>
+        </article>
+      </section>
+
+      <!-- Section: Portfolio -->
+      <section id="portfolio" class="section" data-page="portfolio">
+        <article>
+          <div data-md="2_portfolio.md"></div>
+        </article>
+      </section>
+
+      <!-- Section: CV -->
+      <section id="cv" class="section" data-page="cv">
+        <article>
+          <div data-md="3_cv.md"></div>
+        </article>
+      </section>
+
+      <!-- Section: OTHERS -->
+      <section id="others" class="section" data-page="others">
+        <article>
+          This is a template for a new section, for your reference.
+
+          <div data-md="4_others.md"></div>
+        </article>
+      </section>
+
+
+    </main>
+    <footer>
+      &copy; Your Name 20xx. Last updated month 20xx.
+    </footer>
+
+
+  <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- Site script -->
+    <script src="/assets/js/script.js"></script>
+
+    <!-- KaTeX, faster -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+    <!-- MathJax, slower -->
+    <!-- <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],   
+          displayMath: [['$$', '$$'], ['\\[', '\\]']] 
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script> -->
+
+  </body>
+
+</html>

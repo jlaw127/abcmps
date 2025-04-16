@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaxon Chen</title>
+
+    <!-- Site Icon -->
+    <link rel="shortcut icon" href="/assets/images/shin_chan_1.jpg" type="image/x-icon">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/00eb215651.js" crossorigin="anonymous"></script>
+    <!-- GitHub Markdown CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+
+  <body>
+      <!-- === Mobile Toggle === -->
+      <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+      <div class="mobile-menu" id="mobile-menu"></div>
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <button class="link-item" onclick="window.location.href='/index.html'">Back to Homepage</button>
+      </nav>
+
+    <!-- === Sidebar === -->
+    <aside class="sidebar">
+      <!-- avatar -->
+      <div class="sidebar-avatar">
+        <figure class="avatar-box">
+          <img src="./assets/images/snorlax.jpg" />
+        </figure>
+      </div>
+      <!-- name -->
+      <div class="sidebar-name-block">
+        <h1 class="sidebar-name">Shin Chen</h1>
+      </div>
+      <!-- links -->
+      <ul class="sidebar-links">
+        <li>
+          <a href="mailto:your.email@example.com" target="_blank" class="link-item">
+            <i class="fa-regular fa-envelope icon-box"></i>
+            <span class="link-text">Email</span>
+          </a>
+        </li>
+        <li>
+          <a class="link-item">
+            <i class="fa-solid fa-location-dot icon-box"></i>
+            <span class="link-text">Location</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" class="link-item">
+            <i class="fa-solid fa-file-arrow-down icon-box"></i>
+            <span class="link-text">CV</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com" target="_blank" class="link-item">
+            <i class="fa-brands fa-github icon-box" style="color:#181717;"></i>
+            <span class="link-text">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank" class="link-item">
+            <i class="fa-brands fa-linkedin icon-box" style="color:#0077B5;"></i>
+            <span class="link-text">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="link-item">
+            <i class="fa-solid fa-graduation-cap icon-box" style="color:#4285F4;"></i>
+            <span class="link-text">Google Scholar</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://orcid.org/YOUR_ORCID_ID" target="_blank" class="link-item">
+            <i class="fa-brands fa-orcid icon-box" style="color:#A6CE39;"></i>
+            <span class="link-text">ORCID</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+
+    <!-- === Main === -->
+    <main class="main">
+      <article class="article active" data-page="homepage">
+        <h1 class="h1 article-title">English</h1>
+        <div data-md="cn.md"></div>
+      </article>
+    </main>
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- Site script -->
+    <script src="/assets/js/script.js"></script>
+
+    <!-- KaTeX, faster -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+    <!-- MathJax, slower -->
+    <!-- <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],   
+          displayMath: [['$$', '$$'], ['\\[', '\\]']] 
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script> -->
+
+  </body>
+
+</html>
