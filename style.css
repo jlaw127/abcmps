@@ -436,6 +436,10 @@ button {
     z-index: 2000;
     opacity: 0;
   }
+  .mobile-menu.active {
+    display: block;
+    animation: fade 0.05s ease-out forwards;
+  }
   .mobile-menu-close {
     display: block;
     width: 100%;
