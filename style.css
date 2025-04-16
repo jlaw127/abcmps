@@ -381,6 +381,7 @@ button {
   .sidebar-link-block {
     display: none !important;
   }
+   
   main {
     width: 100%;
     max-width: 100%;
@@ -390,8 +391,6 @@ button {
     padding: var(--space-xs);
     box-sizing: border-box;
   }
-
-
 
   nav {
     position: fixed;
@@ -425,7 +424,6 @@ button {
     box-shadow: 0 1px 2px var(--shadow-color);
   }
 
-
   .mobile-menu {
     display: none;
     position: fixed;
@@ -437,10 +435,6 @@ button {
     border-radius: var(--radius-md);
     z-index: 2000;
     opacity: 0;
-  }
-  .mobile-menu.active {
-    display: block;
-    animation: fade 0.05s ease-out forwards;
   }
   .mobile-menu-close {
     display: block;
