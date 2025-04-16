@@ -93,7 +93,7 @@ $u_3 = v_3 - (v_3 · u_1 / u_1 · u_1) u_1 - (v_3 · u_2 / u_2 · u_2) u_2$
 
 $...$
 
-$u_n = v_n - Σ(j=1 to n-1) (v_n · u_j / u_j · u_j) u_j$
+$u_n = v_n - \sum_{j=1}^{n-1}(v_n · u_j / u_j · u_j) u_j$
 
 
 ### Theorem on Determinants and Invertibility
