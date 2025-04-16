@@ -81,7 +81,6 @@ Then visit `http://localhost:8000` in your browser. If you update your files but
 1. Go to `Settings > Pages`.
 1. Under Source, select the `main` branch and `/ (root)` folder.
 1. Click Save — your site will be live at `https://XXX.github.io/`.
-1. Push your code to this repository.
 
 ## Acknowledgment
 This template is inspired and developed based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io.git) and [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio.git).
