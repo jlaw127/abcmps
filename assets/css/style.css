@@ -371,7 +371,7 @@ button {
     height: auto;
     margin: 0;
     margin-bottom: var(--mobile-navbar-height);
-    margin-top: var(--mobile-navbar-height);
+    margin-top: var(--sidebar-height);
     padding: var(--space-xs);
     box-sizing: border-box;
   }
