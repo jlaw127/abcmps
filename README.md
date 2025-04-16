@@ -80,5 +80,5 @@ Then visit `http://localhost:8000` in your browser. If you update your files but
 
 
 ## License
-MIT License. See `LICENSE` file for details.
+MIT License.
 
