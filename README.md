@@ -1,7 +1,7 @@
-# Academic vCard Template
+# A clean markdown-powered personal site template
 
 ## Overview
-This template is developed based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io.git) and [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio.git), with the goal of achieving a simple, lightweight, and highly readable design.
+This template is developed based on the [Academic Pages](https://github.com/academicpages/academicpages.github.io.git) and [vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio.git), with the goal of achieving a simple, clean, and readable design.
 
 ```
 Body: The largest set
