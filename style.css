@@ -23,7 +23,7 @@
   
   /* sidebar bar */
   --sidebar-color: #C4D6ED; 
-  --link-hover-color: #F0F8FF;
+  --link-hover-color: AliceBlue; 
   --link-accent-color: #4C8AFF;
   
 
@@ -312,7 +312,8 @@ button {
   border-radius: var(--radius-sm);
 }
 .icon-box {
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: Gray;
   transition: color var(--fast-transition);
 }
 .link-text {
