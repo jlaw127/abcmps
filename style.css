@@ -47,7 +47,9 @@
   --sidebar-width: clamp(15rem, 20vw, 18.75rem);    /* 240px to 300px */ 
   --avatar-size: clamp(5rem, 10vw, 10.75rem);
   --navbar-height: clamp(3.5rem, 6vh, 5rem);        
-  --mobile-navbar-height: 3rem;                  
+  --mobile-navbar-height: 3rem;     
+  --portfolio-card-width: 20rem;
+  --portfolio-card-height: calc(var(--portfolio-card-width) * 0.618);
 
   /* === SPACING SCALE (responsive) === */
   --space-xs: clamp(0.25rem, 0.5vw, 0.5rem);        /* Extra small space (e.g., gaps between labels) */
@@ -135,6 +137,31 @@ section.active {
   background-color: var(--background-color) !important;
 }
 
+.markdown-body .portfolio-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-md);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.markdown-body .portfolio-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-body .portfolio-card img {
+  width: var(--portfolio-card-width);
+  height: var(--portfolio-card-height);
+  object-fit: cover; /* option: contain */   
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+
 /* SIDEBAR */
 aside {
   position: fixed;
@@ -142,7 +169,7 @@ aside {
   left: 0;
   width: var(--sidebar-width);
   height: 100vh;
-  box-shadow: 0 1px 1px 1px var(--shadow-color);
+  box-shadow: 1px 0 1px var(--shadow-color);
   background: var(--sidebar-color);
   box-sizing: border-box;
   padding: var(--space-md);
@@ -186,7 +213,7 @@ aside {
 /* NAVIGATION BAR */
 nav {
   background-color: var(--navbar-color);
-  box-shadow: 0 1px 2px var(--shadow-color);
+  box-shadow: 0 1px 1px var(--shadow-color);
   position: fixed;
   left: var(--sidebar-width);
   right: 0;
@@ -331,16 +358,17 @@ button {
 
 /* Navigation button settings */
 .nav-button {
-  padding-bottom: var(--space-xs);
   display: flex;
   align-items: center;
-  justify-content: center;         
-  gap: var(--fs-base); 
+  justify-content: center;
+  gap: var(--fs-base);
+  padding: var(--space-xs); 
   color: var(--text-color);
   text-decoration: none;
   border-bottom: 5px solid transparent;
   transition: var(--fast-transition);
 }
+
 .nav-button:hover {
   border-bottom-color: var(--button-active-color);
 }
@@ -350,9 +378,6 @@ button {
   border-bottom-color: var(--button-active-color); 
 }
 
-/* Portfolio Card Settings */
-/* .portfolio-card {
-} */
 
 
 /*-----------------------------------*\
@@ -453,9 +478,14 @@ button {
     text-align: center;
     font-size: var(--fs-small);
     box-sizing: border-box;
-    margin-bottom: var(--mobile-navbar-height); /* 避免被 nav 遮住 */
+    margin-bottom: var(--mobile-navbar-height); 
   }
 
+  .markdown-body .portfolio-card {
+    flex-direction: column;
+    align-items: center; 
+    text-align: left;  
+  }
 }
 
 
