@@ -304,15 +304,15 @@ button {
 .sidebar-link[href] {
   cursor: pointer; 
 }
+.sidebar-link[href]:hover .link-text {
+  text-decoration: underline;
+}
 .sidebar-link:hover {
   background-color: var(--link-hover-color);
-  transform: translateY(1px); 
   box-shadow: inset 0 1px 1px var(--shadow-color);
   border-left: 4px solid var(--link-accent-color);
-  border-radius: var(--radius-sm);
 }
 .icon-box {
-  /* color: var(--text-color); */
   color: Gray;
   transition: color var(--fast-transition);
 }
