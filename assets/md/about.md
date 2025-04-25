@@ -1,4 +1,5 @@
-# About
+# ABOUT
+
 ## qwer
 
 I'm [First Name] [Last Name], a grad student at XXX. I obtained my bachelor's degree here in 2022.  

@@ -43,12 +43,11 @@
   --fw-bold: 700;
 
   /* === LAYOUT WIDTHS === */
-  --main-max-width: clamp(20rem, 90vw, 60rem);      /* 320px to 960px */
-  --sidebar-width: clamp(15rem, 20vw, 18.75rem);    /* 240px to 300px */ 
+  --sidebar-width: clamp(15rem, 20vw, 17rem); 
   --avatar-size: clamp(5rem, 10vw, 10.75rem);
-  --navbar-height: clamp(3.5rem, 6vh, 5rem);        
+  --navbar-height: clamp(3.75rem, 6vh, 5rem);        
   --mobile-navbar-height: 3rem;     
-  --portfolio-card-width: 20rem;
+  --portfolio-card-width: 15rem;
   --portfolio-card-height: calc(var(--portfolio-card-width) * 0.618);
 
   /* === SPACING SCALE (responsive) === */
@@ -142,22 +141,15 @@ section.active {
   align-items: flex-start;
   gap: var(--space-lg);
   margin-bottom: var(--space-md);
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: var(--space-md);
 }
 
-.markdown-body .portfolio-card:hover {
-transform: translateY(-4px);
-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
 
 .markdown-body .portfolio-card img {
   width: var(--portfolio-card-width);
   height: var(--portfolio-card-height);
-  object-fit: cover; /* option: contain */   
-  border-radius: 0;
+  object-fit: cover;
+  border-radius: var(--radius-md);
   flex-shrink: 0;
 }
 
@@ -165,14 +157,14 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 /* SIDEBAR */
 aside {
   position: fixed;
-  top: 0;
+  top: var(--navbar-height);
   left: 0;
   width: var(--sidebar-width);
   height: 100vh;
   box-shadow: 1px 0 1px var(--shadow-color);
   background: var(--sidebar-color);
   box-sizing: border-box;
-  padding: var(--space-md);
+  padding: var(--space-sm);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -215,7 +207,7 @@ nav {
   background-color: var(--navbar-color);
   box-shadow: 0 1px 1px var(--shadow-color);
   position: fixed;
-  left: var(--sidebar-width);
+  left: 0;
   right: 0;
   top: 0;
   height: var(--navbar-height);
@@ -384,13 +376,13 @@ button {
   Mobile Responsiveness
 \*-----------------------------------*/
 
-@media (min-width: 801px) {
+@media (min-width: 1001px) {
   .mobile-toggle,
   .mobile-menu {
     display: none !important;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
    aside {
     position: static !important;
     width: 100%;

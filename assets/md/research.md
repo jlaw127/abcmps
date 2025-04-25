@@ -1,51 +1,30 @@
 # RESEARCH 
 Here are some examples.
 
-<div class="portfolio-card">
-  <img src="assets/images/shin_chan_1.jpg" alt="Project Image">
-  <div>
-    <p><strong>This is the project name. This is the project name. This is the project name.</strong></p>
-    <p>
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-    </p>
-    <p>
-      <a href="https://www.google.com">Link 1</a>
-      <a href="https://www.google.com">Link 2</a>
-      <a href="https://www.google.com">Link 3</a>
-    </p>
-    <p><em>John Doe. Understanding GitHub Pages. Journal of XXX, 2025.</em></p>
-    </div>
-</div>
+
+**This is the project name. This is the project name. This is the project name.** \
+John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. Understanding GitHub Pages. Understanding GitHub Pages. Understanding GitHub Pages. Understanding GitHub Pages. Journal of XXX, 2025.\
+[Link 1](https://www.google.com) | [Link 2](https://www.google.com) | [Link 3](https://www.google.com)
+
+
+
+
 
 <div class="portfolio-card">
-  <img src="assets/images/shin_chan_3.jpg" alt="Project Image">
+  <img src="assets/images/snorlax.jpg" alt="Project Image">
   <div>
-    <p><strong>This is the project name. This is the project name. This is the project name.</strong></p>
+    <!-- project name -->
     <p>
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
-      This is a short description of the project. It explains what the project does, technologies used, and the outcome.
+      <strong>This is the project name. This is the project name. This is the project name.</strong>
     </p>
+    <!-- authors -->
     <p>
-      <a href="https://www.google.com">Link 1</a>
-      <a href="https://www.google.com">Link 2</a>
-      <a href="https://www.google.com">Link 3</a>
+      John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. John Doe. Understanding GitHub Pages. Understanding GitHub Pages. Understanding GitHub Pages. Understanding GitHub Pages. Journal of XXX, 2025.
     </p>
-    <p><em>John Doe. Understanding GitHub Pages. Journal of XXX, 2025.</em></p>
-    </div>
+    <!-- links -->
+    <a href="https://www.google.com">Link 1</a>
+    <a href="https://www.google.com">Link 2</a>
+    <a href="https://www.google.com">Link 3</a>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
