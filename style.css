@@ -8,22 +8,22 @@
 
 :root { 
   /* === COLOR PALETTE === */
-  --background-color: #F8F9F5;  
+  --background-color: #FAFDF8;  
   --shadow-color: hsla(0, 0%, 0%, 0.15); 
   /* text colors */
-  --heading-color: #2A2A2A ;   
-  --text-color: #2A2A2A; 
+  --heading-color: #333333;   
+  --text-color: #333333; 
   /* accent colors */
   --highlight-color: #FEFAA1;             
   --danger-color: red;  
 
   /* navbar colors */ 
-  --navbar-color: #C6E3D0;
+  --navbar-color: #E8F2E3;
   --button-active-color: #8FBC8F; 
   
   /* sidebar bar */
-  --sidebar-color: #C4D6ED; 
-  --link-hover-color: AliceBlue; 
+  --sidebar-color: #FAFDF8 ; 
+  --link-hover-color: #F5F9F1; 
   --link-accent-color: #4C8AFF;
   
 
