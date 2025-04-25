@@ -161,7 +161,6 @@ aside {
   left: 0;
   width: var(--sidebar-width);
   height: 100vh;
-  box-shadow: 1px 0 1px var(--shadow-color);
   background: var(--sidebar-color);
   box-sizing: border-box;
   padding: var(--space-sm);
