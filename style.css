@@ -151,11 +151,11 @@ button {
 }
 
 .separator {
-  width: 80%;
+  margin: 0 0 0 var(--space-md); /* top, right, bottom, left */
   height: 5px;
   background-color: var(--button-active-color);
   border-radius: var(--radius-lg);
-  margin: 0 auto;
+  
 }
 
 /* scrollbars */
@@ -234,6 +234,7 @@ aside {
   border-radius: var(--radius-sm);
   /* border: 1px solid orange; */
   padding-top: var(--space-xl);
+  padding-right: var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
@@ -463,5 +464,4 @@ footer {
   }
 
 }
-
 
