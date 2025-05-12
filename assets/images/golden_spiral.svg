@@ -8,11 +8,11 @@
 
   <g>
     <!-- transparent fill paths with gradient stroke -->
-    <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M680.72 320.91V335.53H695.34V320.91Z" />
-    <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 335.53H673.41V357.46H695.34Z" />
-    <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 335.53H673.41V357.46H695.34Z" />
-    <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M636.86 320.91H695.34V262.43H636.86Z" />
-    <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 262.43V357.46H790.37V262.43Z" />
+    <path fill="none" stroke="url(#gradientStroke)" stroke-width="5" d="M680.72 320.91V335.53H695.34V320.91Z" />
+    <path fill="none" stroke="url(#gradientStroke)" stroke-width="5" d="M695.34 335.53H673.41V357.46H695.34Z" />
+    <path fill="none" stroke="url(#gradientStroke)" stroke-width="5" d="M695.34 335.53H673.41V357.46H695.34Z" />
+    <path fill="none" stroke="url(#gradientStroke)" stroke-width="5" d="M636.86 320.91H695.34V262.43H636.86Z" />
+    <path fill="none" stroke="url(#gradientStroke)" stroke-width="5" d="M695.34 262.43V357.46H790.37V262.43Z" />
 
     <!-- curves with the same vertical gradient -->
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="20" d="M695.34 335.53C695.34 327.46 688.79 320.91 680.72 320.91" />
