@@ -1,20 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="627 252 174 116">
-  <defs>
-    <linearGradient id="gradientStroke" x1="627" y1="0" x2="801" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="rgb(0,255,255)" />
-      <stop offset="100%" stop-color="rgb(0,128,255)" />
-    </linearGradient>
-  </defs>
+<!-- <defs>
+  <linearGradient id="gradientStroke" x1="0" y1="252" x2="0" y2="368" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#004d40" />
+    <stop offset="100%" stop-color="#00bfa5" />
+  </linearGradient>
+</defs> -->
+<defs>
+  <linearGradient id="gradientStroke" x1="0" y1="252" x2="0" y2="368" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#0D3B66" />
+    <stop offset="100%" stop-color="#66FFCC" />
+  </linearGradient>
+</defs>
+
+
+
 
   <g>
-    <!-- transparent fills -->
+    <!-- transparent fill paths with gradient stroke -->
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M680.72 320.91V335.53H695.34V320.91Z" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 335.53H673.41V357.46H695.34Z" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 335.53H673.41V357.46H695.34Z" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M636.86 320.91H695.34V262.43H636.86Z" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="2" d="M695.34 262.43V357.46H790.37V262.43Z" />
 
-    <!-- curves -->
+    <!-- curves with the same vertical gradient -->
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="20" d="M695.34 335.53C695.34 327.46 688.79 320.91 680.72 320.91" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="20" d="M673.41 357.46C685.52 357.46 695.34 347.64 695.34 335.53" />
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="20" d="M636.86 320.91C636.86 341.10 653.22 357.46 673.41 357.46" />
@@ -22,5 +31,7 @@
     <path fill="none" stroke="url(#gradientStroke)" stroke-width="20" d="M790.37 357.46C790.37 304.98 747.82 262.43 695.34 262.43" />
   </g>
 </svg>
+
+
 
 
