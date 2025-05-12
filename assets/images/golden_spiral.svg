@@ -1,19 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="627 252 174 116">
-<!-- <defs>
-  <linearGradient id="gradientStroke" x1="0" y1="252" x2="0" y2="368" gradientUnits="userSpaceOnUse">
-    <stop offset="0%" stop-color="#004d40" />
-    <stop offset="100%" stop-color="#00bfa5" />
-  </linearGradient>
-</defs> -->
-<defs>
-  <linearGradient id="gradientStroke" x1="0" y1="252" x2="0" y2="368" gradientUnits="userSpaceOnUse">
-    <stop offset="0%" stop-color="#0D3B66" />
-    <stop offset="100%" stop-color="#66FFCC" />
-  </linearGradient>
-</defs>
-
-
-
+  <defs>
+    <linearGradient id="gradientStroke" x1="0" y1="252" x2="0" y2="368" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#004d40" />
+      <stop offset="100%" stop-color="#00bfa5" />
+    </linearGradient>
+  </defs>
 
   <g>
     <!-- transparent fill paths with gradient stroke -->
